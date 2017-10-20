@@ -1,0 +1,32 @@
+#input-username .input-field{
+    display: block;
+    float: unset;
+    color:#fefefe;
+}
+
+#input-username{
+    margin: auto;
+    float: unset;
+    padding: 50px 30px;
+    background-color: #1565C0; 
+    margin-top: 10%;  
+}
+
+#input-username input[type=text]:focus:not([readonly])+label{
+ color: #cecece ;
+}
+
+#input-username input[type=text]:focus:not([readonly]){
+    border-bottom: 1px solid #cecece;
+    box-shadow: 0 1px 0 0 #cecece;
+}
+
+#login-header .brand-logo{
+    position: relative;
+}
+
+.my-button{
+    background-color: #cecece !important;
+    color: #1565C0 !important;
+    font-weight: bold;
+}

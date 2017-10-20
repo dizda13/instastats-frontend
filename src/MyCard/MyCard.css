@@ -1,0 +1,10 @@
+.card-position{
+    float: none !important;
+    display: inline-block;
+}
+
+.card-on-hover:hover{
+    border: 1px border-style black;
+    box-shadow: 0px 0px 30px #555555;
+    padding: 0% 0% 0% 0%;
+}

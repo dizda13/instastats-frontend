@@ -1,0 +1,36 @@
+.full-image-card{
+    float: none !important;
+    display: inline-block;
+    margin-top:20px
+}
+
+.likes-comments-board{
+    border-bottom: 2px solid #888888;
+    padding: 10px;
+    text-align: left;
+    /*float:left;
+    display: block;*/
+}
+
+#full-image-card .card-content{
+    padding: 0%;
+}
+
+#full-image-card .card-title{
+    border-bottom: 1px solid #888888;
+    padding: 10px;
+}
+
+#full-image-card p{
+    font-size: 1.5em !important;
+}
+
+#full-image-card .backgroud{
+    background-color: #cfd8dc ;
+}
+
+.backgroud:hover{
+    border: 1px border-style black;
+    box-shadow: 0px 0px 30px #555555;
+    cursor: pointer;
+}
